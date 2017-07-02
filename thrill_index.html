@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap/ CSS/scss -->
-    <link rel="stylesheet" href="css/main.css/">
+    <link rel="stylesheet" href="css/main.css/main.scss">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <!-- Adobe typekit fonts-->
@@ -70,6 +71,7 @@
               </div>
             </div>  <!--/ROW -->
           </div>  <!--/CONTAINER-FLUID ========band-members-position-->
+          <!-- note: .band-member in scss is noting wking remove 'bg-inverse' -->
           <div class="container text-center band-members">
             <div class="row">
               <div class="col-sm-4">
@@ -101,36 +103,36 @@
               </div>
             </div>
           </div>
-          <p>See something you like</p>
+          <p class="music-cta">See something you like</p>
           <a href="#" class="btn btn-primary">See our video clips</a>
         </section> <!--/ABOUT -->
-
-        <div class="parallax">
+   <!--  ===========parallax================================= -->
+        <div class="parallax parallax-home">
         </div>
    <!--  ===========our music================================= -->
         <section class="music text-center">
           <div class="container">
             <h2>Our Music</h2>
             <div class="row justify-content-center no-gutters">
-              <div class="col-sm-3">
+              <div class="col-sm-3 col">
                 <img class="img-fluid"src="img/dj1.jpg" alt="">
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-3 col">
                 <img class="img-fluid"src="img/dj1.jpg" alt="">
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-3 col">
                 <img class="img-fluid"src="img/dj1.jpg" alt="">
               </div>
             </div>
 
             <div class="row justify-content-center no-gutters">
-              <div class="col-sm-3">
+              <div class="col-sm-3 col">
                 <img class="img-fluid"src="img/dj1.jpg" alt="">
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-3 col">
                 <img class="img-fluid"src="img/dj1.jpg" alt="">
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-3 col">
                 <img class="img-fluid"src="img/dj1.jpg" alt="">
               </div>
             </div>
@@ -188,14 +190,14 @@
         <footer>
           <div class="container">
             <div class="row">
-              <div class="col-sm-7">
+              <div class="col-lg-5">
                 <p>Thrills Life Productions 2017</p>
               </div>
-              <div class="col-sm-5">
-                <ul class="list-inline">
-                    <li class="list-inline-item social-links"><a href="https://www.facebook.com/ThrillLifeProductions">Facebook</a></li>
-                    <li class="list-inline-item social-links"><a href="#">Twitter</a></li>
-                    <li class="list-inline-item social-links"><a href="https://www.instagram.com/do_it4_the_thrill">Instagram</a></li>
+              <div class="col-lg-7">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item social-link"><a href="https://www.facebook.com/ThrillLifeProductions">Facebook</a></li>
+                    <li class="list-inline-item social-link"><a href="#">Twitter</a></li>
+                    <li class="list-inline-item social-link"><a href="https://www.instagram.com/do_it4_the_thrill">Instagram</a></li>
                 </ul>
 
               </div>

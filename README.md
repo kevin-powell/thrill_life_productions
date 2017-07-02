@@ -125,7 +125,7 @@ Install Bootstrap in your Node powered apps with the npm package:
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     e. change link to say:
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 
     f. fa-calendar-o -  Unicode: f133
     <i class="fa fa-calendar-o" aria-hidden="true"></i>

@@ -34,6 +34,7 @@
 .band-member {
   margin-bottom: 1.5em;
   box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
+  background: $black;
   @include media-breakpoint-up(md) {
     position: absolute;
     top: -3em;
@@ -55,11 +56,21 @@
 
 // our music =================
 
+.music {
+  margin-top: 5em;
+  margin-bottom: 5em;
+
+}
+
 .music-container {
   background: $black;
   box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
   padding-top: 7vh;
   padding-bottom: 7vh;
+}
+
+.music-title {
+  margin-bottom: 0.5em;
 }
 
 .music-cta {

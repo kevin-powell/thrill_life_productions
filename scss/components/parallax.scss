@@ -1,0 +1,19 @@
+// parallax
+
+.parallax {
+  background: pink;
+  display: none;
+  @include media-breakpoint-up(md){
+    height: 30vmax;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: block;
+  }
+}
+
+.parallax-home {
+  background-image: url(../img/desktop1.jpg);
+
+
+}

@@ -279,7 +279,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #FFF;
-  background-color: #1f1f1f; }
+  background-color: #939393; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -544,7 +544,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #1f1f1f;
+  background-color: #939393;
   border: 1px solid #ddd;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -2044,8 +2044,8 @@ tbody.collapse.show {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #939393;
-    background-color: #1f1f1f;
-    border-color: #ddd #ddd #1f1f1f; }
+    background-color: #939393;
+    border-color: #ddd #ddd #939393; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px; }
 
@@ -2732,7 +2732,7 @@ tbody.collapse.show {
   vertical-align: text-top !important; }
 
 .bg-faded {
-  background-color: #171717; }
+  background-color: #8b8b8b; }
 
 .bg-primary {
   background-color: #0275d8 !important; }
