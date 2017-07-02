@@ -1,0 +1,50 @@
+//home page
+.hero {
+  background-image: url(../img/dj1.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding-top: 20vh;
+  padding-bottom: 25vh
+}
+
+.about-title {
+  background: url(../img/desktop1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 45vw;
+}
+
+.about-text {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  @include media-breakpoint-up(md) {
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+  }
+}
+
+.band-members {
+  position: relative;
+}
+
+.band-member {
+  margin-bottom: 1.5em;
+  box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    top: -3em;
+    z-index: 100;
+  }
+}
+
+
+
+.band-member-name{
+  font-family: $sans;
+  text-transform: uppercase;
+  margin-bottom: 0.25em;
+}
+
+.band-member-position {
+  color: $gray-light;
+}

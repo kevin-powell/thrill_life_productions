@@ -1,0 +1,9 @@
+@import 'abstracts/variables';
+
+
+//bring Bootstrap
+@import 'vendor/bootstrap';
+@import 'base/typography';
+
+@import 'components/navigation';
+@import 'pages/home';

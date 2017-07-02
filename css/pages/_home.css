@@ -1,0 +1,16 @@
+.hero {
+  background-image: url(../img/dj1.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding-top: 20vh;
+  padding-bottom: 25vh; }
+
+.about-title {
+  background: url(../img/desktop1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 45vw; }
+
+.about-text {
+  padding-top: 10vh;
+  padding-bottom: 10vh; }
