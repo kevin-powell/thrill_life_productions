@@ -1,0 +1,15 @@
+footer {
+  margin-top: 4em;
+  background: $black;
+  padding: 2em 0 1.5em;
+  color: $gray-light;
+  a{
+    color: $gray-light;
+  }
+}
+
+.social-links:not(:first-of-type)::before {
+  content: '/';
+  display: inline-block;
+  color: rgba($gray-light, 0.4)
+}

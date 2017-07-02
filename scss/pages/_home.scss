@@ -7,6 +7,10 @@
   padding-bottom: 25vh
 }
 
+.about {
+  background: $black;
+}
+
 .about-title {
   background: url(../img/desktop1.jpg);
   background-size: cover;
@@ -47,4 +51,61 @@
 
 .band-member-position {
   color: $gray-light;
+}
+
+// our music =================
+
+.music-container {
+  background: $black;
+  box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+.music-cta {
+  margin-top: 2em;
+}
+
+
+// our shows/events==============
+
+.shows {
+  margin-top: 2em;
+  font-size: .9em;
+}
+
+.show-title {
+  font-family: $sans;
+}
+
+.show-info {
+  display: flex;
+  flex-direction: column;
+}
+// > * direct decend of show-info will get a margin 0
+.show-info > * {
+  margin-bottom: 0;
+}
+
+.date {
+  font-weight: $bold;
+  &::before {
+    content: '\f1333';
+    display: inline-block;
+    font-family: fontAwesome;
+    margin-right: 5px;
+  }
+}
+
+.price {
+  font-weight: $bold;
+  small {
+    font-weight: $normal;
+  }
+  &::before {
+    content: '\f145';
+    display: inline-block;
+    font-family: fontAwesome;
+    margin-right: 5px;
+  }
 }

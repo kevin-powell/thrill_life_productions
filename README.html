@@ -1,0 +1,138 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <p>Thrill Life Productions</p>
+<p>First steps:</p>
+<ol>
+<li>install node.js vs 6.11.
+ npm vs 3.10.10</li>
+<li>install bower</li>
+<li>Terminal: npm install -g bower</li>
+</ol>
+<p>Install Bootstrap in your Node powered apps with the npm package:</p>
+<ol>
+<li><p>Terminal: npm install bootstrap@4.0.0-alpha.6</p>
+</li>
+<li><p>create a folder scss / within that folder create vendor folder</p>
+</li>
+<li><p>Going to Customize our bootstrap scss:
+a. go to  bower_components/bootstrap
+b. pull out _custom.scss &amp; bootstrap.scss
+c. place these in your vendor folder</p>
+</li>
+</ol>
+<ol>
+<li><p>Goto bootstrap.scss (only common out what you will be using)
+add to these files
+&quot;../..bower_components/bootstrap/scss/&quot;</p>
+<p>// Core variables and mixins
+@import &quot;custom&quot;;
+@import &quot;../../bower_components/bootstrap/scss/variables&quot;;
+@import &quot;../../bower_components/bootstrap/scss/mixins&quot;;</p>
+</li>
+</ol>
+<p> // Reset and dependencies
+ @import &quot;../../bower_components/bootstrap/scss/normalize&quot;;
+ @import &quot;../../bower_components/bootstrap/scss/print&quot;;</p>
+<p> // Core CSS
+ @import &quot;../../bower_components/bootstrap/scss/reboot&quot;;
+ @import &quot;../../bower_components/bootstrap/scss/type&quot;;
+ @import &quot;../../bower_components/bootstrap/scss/images&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/code&quot;;
+ @import &quot;../../bower_components/bootstrap/scss/grid&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/tables&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/forms&quot;;
+ @import &quot;../../bower_components/bootstrap/scss/buttons&quot;;</p>
+<p> // Components
+ @import &quot;../../bower_components/bootstrap/scss/transitions&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/dropdown&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/button-group&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/input-group&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/custom-forms&quot;;
+ @import &quot;../../bower_components/bootstrap/scss/nav&quot;;
+ @import &quot;../../bower_components/bootstrap/scss/navbar&quot;;
+ @import &quot;../../bower_components/bootstrap/scss/card&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/breadcrumb&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/pagination&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/badge&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/jumbotron&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/alert&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/progress&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/media&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/list-group&quot;;
+ @import &quot;../../bower_components/bootstrap/scss/responsive-embed&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/close&quot;;</p>
+<p> // Components w/ JavaScript
+ //@import &quot;../../bower_components/bootstrap/scss/modal&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/tooltip&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/popover&quot;;
+ //@import &quot;../../bower_components/bootstrap/scss/carousel&quot;;</p>
+<p> // Utility classes
+ @import &quot;../../bower_components/bootstrap/scss/utilities&quot;;</p>
+<ol>
+<li>Inside your vendor folder- create a file main.scss
+ @import &#39;abstracts/variables&#39;;</li>
+</ol>
+<pre><code>//bring Bootstrap
+@import &#39;vendor/bootstrap&#39;;
+@import &#39;base/typography&#39;;
+
+@import &#39;components/navigation&#39;;
+@import &#39;pages/home&#39;;
+</code></pre><ol>
+<li><p>In your SCSS folder create
+_home.scss
+abstracts /file: _variables.scss
+base /file: _typography.scss
+components /file: _navigation.scss
+layout
+pages /file: _home.scss</p>
+</li>
+<li><p>Inside thrill_life_productions - create a file
+ thrill_index.html</p>
+</li>
+<li><!-- starter template -->  
+</li>
+</ol>
+<p>&lt;!DOCTYPE html&gt;</p>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1></h1>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<ol>
+<li><p>Inside thrill_life_productions - create a folder
+fonts
+a. goto fonts <a href="http://fontawesome.io/">http://fontawesome.io/</a>
+b. download
+c. grab zip file font-awesome-4.7.0 and drag to fonts folder
+d. In the <head> of your html, reference the location to your font-awesome.min.css. paste this link</p>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+<p>e. change link to say:</p>
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+<p>f. fa-calendar-o -  Unicode: f133
+<i class="fa fa-calendar-o" aria-hidden="true"></i></p>
+</li>
+</ol>
+
+      </body>
+    </html>
