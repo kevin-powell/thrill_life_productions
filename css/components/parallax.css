@@ -1,9 +1,0 @@
-.parallax {
-  background: pink;
-  height: 30vmax;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center; }
-
-.parallax-home {
-  background-image: url(../img/desktop1.jpg); }

@@ -4,8 +4,8 @@
 // without modifying source files.
 
 $red:    #e23400;
-$black:  #1f1f1f;
-$white: #FFF;
+$black:  yellow;
+$white:  #FFF;
 
 // Create grayscale
 
@@ -22,7 +22,7 @@ $enable-rounded: false;
 //
 // Settings for the `<body>` element.
 
-$body-bg: $gray;
+$body-bg: $black;
 $body-color: $white;
 
 $font-size-base: 1.4rem;
